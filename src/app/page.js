@@ -42,7 +42,7 @@ export default function Home() {
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="w-8 h-8" /> Node.js
             </li>
             <li className="px-5 py-2 rounded flex items-center gap-3 bg-blue-700 text-white transition-transform duration-200 hover:scale-105 hover:shadow-lg">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" className="w-8 h-8" /> CSS/SCSS
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" className="w-8 h-8" /> CSS
             </li>
             <li className="px-5 py-2 rounded flex items-center gap-3 bg-sky-600 text-neutral-900 transition-transform duration-200 hover:scale-105 hover:shadow-lg">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" className="w-8 h-8" /> Tailwind CSS
