@@ -32,7 +32,7 @@ export default function Home() {
             <li className="px-5 py-2 rounded flex items-center gap-3 bg-blue-600 text-white transition-transform duration-200 hover:scale-105 hover:shadow-lg">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" className="w-8 h-8" /> TypeScript
             </li>
-            <li className="px-5 py-2 rounded flex items-center gap-3 bg-cyan-600 text-neutral-900 transition-transform duration-200 hover:scale-105 hover:shadow-lg">
+            <li className="px-5 py-2 rounded flex items-center gap-3 bg-cyan-400 text-neutral-900 transition-transform duration-200 hover:scale-105 hover:shadow-lg">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-8 h-8" /> React
             </li>
             <li className="px-5 py-2 rounded flex items-center gap-3 bg-black text-white transition-transform duration-200 hover:scale-105 hover:shadow-lg">
@@ -44,7 +44,7 @@ export default function Home() {
             <li className="px-5 py-2 rounded flex items-center gap-3 bg-blue-700 text-white transition-transform duration-200 hover:scale-105 hover:shadow-lg">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" className="w-8 h-8" /> CSS
             </li>
-            <li className="px-5 py-2 rounded flex items-center gap-3 bg-sky-600 text-neutral-900 transition-transform duration-200 hover:scale-105 hover:shadow-lg">
+            <li className="px-5 py-2 rounded flex items-center gap-3 bg-sky-400 text-neutral-900 transition-transform duration-200 hover:scale-105 hover:shadow-lg">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" className="w-8 h-8" /> Tailwind CSS
             </li>
             <li className="px-5 py-2 rounded flex items-center gap-3 bg-blue-900 text-white transition-transform duration-200 hover:scale-105 hover:shadow-lg">
@@ -55,18 +55,21 @@ export default function Home() {
 
         <section className="w-full">
           <h2 className="text-xl font-semibold mb-3 text-gray-200">Projects</h2>
-          <div className="bg-[#23272f] rounded-lg shadow p-4 border border-gray-700 transition-transform duration-200 hover:scale-105 hover:shadow-xl">
-  <h3 className="font-bold text-lg text-white">Project One</h3>
-  <p className="text-gray-300 text-sm mt-1">A brief description of your project goes here. Highlight what makes it interesting or unique.</p>
-  <a href="#" className="text-blue-400 hover:underline text-sm mt-2 inline-block">View on GitHub</a>
-</div>
-<div className="bg-[#23272f] rounded-lg shadow p-4 border border-gray-700 transition-transform duration-200 hover:scale-105 hover:shadow-xl">
-  <h3 className="font-bold text-lg text-white">Project Two</h3>
-  <p className="text-gray-300 text-sm mt-1">Another project description. Mention technologies used and your role.</p>
-  <a href="#" className="text-blue-400 hover:underline text-sm mt-2 inline-block">View on GitHub</a>
-</div>
+          <div className="flex flex-col gap-6">
+            <div className="bg-[#23272f] rounded-lg shadow p-6 border border-gray-700 transition-transform duration-200 hover:scale-105 hover:shadow-xl">
+              <h3 className="font-bold text-lg text-white">Project One</h3>
+              <p className="text-gray-300 text-base mt-2">A brief description of your project goes here. Highlight what makes it interesting or unique.</p>
+              <a href="#" className="text-blue-400 hover:underline text-base mt-3 inline-block">View on GitHub</a>
+            </div>
+            <div className="bg-[#23272f] rounded-lg shadow p-6 border border-gray-700 transition-transform duration-200 hover:scale-105 hover:shadow-xl">
+              <h3 className="font-bold text-lg text-white">Project Two</h3>
+              <p className="text-gray-300 text-base mt-2">Another project description. Mention technologies used and your role.</p>
+              <a href="#" className="text-blue-400 hover:underline text-base mt-3 inline-block">View on GitHub</a>
+            </div>
           </div>
         </section>
+          
+        
 
         <section className="w-full">
           <h2 className="text-xl font-semibold mb-3 text-gray-200">Contact</h2>
