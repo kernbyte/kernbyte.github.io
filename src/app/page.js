@@ -55,17 +55,16 @@ export default function Home() {
 
         <section className="w-full">
           <h2 className="text-xl font-semibold mb-3 text-gray-200">Projects</h2>
-          <div className="flex flex-col gap-4">
-            <div className="bg-[#23272f] rounded-lg shadow p-4 border border-gray-700">
-              <h3 className="font-bold text-lg text-white">Project One</h3>
-              <p className="text-gray-300 text-sm mt-1">A brief description of your project goes here. Highlight what makes it interesting or unique.</p>
-              <a href="#" className="text-blue-400 hover:underline text-sm mt-2 inline-block">View on GitHub</a>
-            </div>
-            <div className="bg-[#23272f] rounded-lg shadow p-4 border border-gray-700">
-              <h3 className="font-bold text-lg text-white">Project Two</h3>
-              <p className="text-gray-300 text-sm mt-1">Another project description. Mention technologies used and your role.</p>
-              <a href="#" className="text-blue-400 hover:underline text-sm mt-2 inline-block">View on GitHub</a>
-            </div>
+          <div className="bg-[#23272f] rounded-lg shadow p-4 border border-gray-700 transition-transform duration-200 hover:scale-105 hover:shadow-xl">
+  <h3 className="font-bold text-lg text-white">Project One</h3>
+  <p className="text-gray-300 text-sm mt-1">A brief description of your project goes here. Highlight what makes it interesting or unique.</p>
+  <a href="#" className="text-blue-400 hover:underline text-sm mt-2 inline-block">View on GitHub</a>
+</div>
+<div className="bg-[#23272f] rounded-lg shadow p-4 border border-gray-700 transition-transform duration-200 hover:scale-105 hover:shadow-xl">
+  <h3 className="font-bold text-lg text-white">Project Two</h3>
+  <p className="text-gray-300 text-sm mt-1">Another project description. Mention technologies used and your role.</p>
+  <a href="#" className="text-blue-400 hover:underline text-sm mt-2 inline-block">View on GitHub</a>
+</div>
           </div>
         </section>
 
