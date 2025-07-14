@@ -17,7 +17,7 @@ export default function Home() {
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold text-white mt-4">Hi, I'm Kernbyte</h1>
           <p className="text-lg text-gray-300 text-center max-w-xl mt-2">
-            I'm a passionate programmer.
+            \\I'm a passionate programmer.
           </p>
         </div>
 
