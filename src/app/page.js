@@ -1,10 +1,17 @@
-
+import Image from "next/image";
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-between p-8 sm:p-20 bg-gradient-to-br from-gray-50 via-white to-gray-200 dark:from-[#18181b] dark:via-[#23272f] dark:to-[#18181b] font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col items-center w-full max-w-3xl gap-10 mt-10">
         <div className="flex flex-col items-center gap-2">
-          <img src="/profile.jpeg" alt="Avatar" className="w-20 h-20 rounded-full border-4 border-gray-200 dark:border-gray-700 bg-white dark:bg-[#23272f]" />
+          <Image
+            src="/profile.jpeg"
+            alt="Avatar"
+            width={80}
+            height={80}
+            priority
+            className="w-20 h-20 rounded-full border-4 border-gray-200 dark:border-gray-700 bg-white dark:bg-[#23272f]"
+          />
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mt-4">Hi, I'm Kernbyte</h1>
           <p className="text-lg text-gray-700 dark:text-gray-300 text-center max-w-xl mt-2">
             I'm a passionate programmer.
@@ -14,28 +21,28 @@ export default function Home() {
         <section className="w-full">
           <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-200">Skills</h2>
           <ul className="flex flex-wrap gap-3 text-sm text-gray-700 dark:text-gray-300">
-            <li className="px-3 py-1 rounded flex items-center gap-2" style={{ backgroundColor: '#eab308', color: '#222' }}>
+            <li className="px-3 py-1 rounded flex items-center gap-2 bg-yellow-400 text-neutral-900">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" className="w-5 h-5" /> JavaScript
             </li>
-            <li className="px-3 py-1 rounded flex items-center gap-2" style={{ backgroundColor: '#3178c6', color: 'white' }}>
+            <li className="px-3 py-1 rounded flex items-center gap-2 bg-blue-600 text-white">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" className="w-5 h-5" /> TypeScript
             </li>
-            <li className="px-3 py-1 rounded flex items-center gap-2" style={{ backgroundColor: '#61dafb', color: '#222' }}>
+            <li className="px-3 py-1 rounded flex items-center gap-2 bg-cyan-300 text-neutral-900">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-5 h-5" /> React
             </li>
-            <li className="px-3 py-1 rounded flex items-center gap-2" style={{ backgroundColor: '#000', color: 'white' }}>
+            <li className="px-3 py-1 rounded flex items-center gap-2 bg-black text-white">
               <img src="/next.svg" alt="Next.js" className="w-5 h-5 dark:invert" /> Next.js
             </li>
-            <li className="px-3 py-1 rounded flex items-center gap-2" style={{ backgroundColor: '#3c873a', color: 'white' }}>
+            <li className="px-3 py-1 rounded flex items-center gap-2 bg-green-700 text-white">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="w-5 h-5" /> Node.js
             </li>
-            <li className="px-3 py-1 rounded flex items-center gap-2" style={{ backgroundColor: '#264de4', color: 'white' }}>
+            <li className="px-3 py-1 rounded flex items-center gap-2 bg-blue-700 text-white">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" className="w-5 h-5" /> CSS/SCSS
             </li>
-            <li className="px-3 py-1 rounded flex items-center gap-2" style={{ backgroundColor: '#38bdf8', color: '#222' }}>
+            <li className="px-3 py-1 rounded flex items-center gap-2 bg-sky-600 text-neutral-900">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" className="w-5 h-5" /> Tailwind CSS
             </li>
-            <li className="px-3 py-1 rounded flex items-center gap-2" style={{ backgroundColor: '#00599c', color: 'white' }}>
+            <li className="px-3 py-1 rounded flex items-center gap-2 bg-blue-900 text-white">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" className="w-5 h-5" /> C
             </li>
           </ul>
