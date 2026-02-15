@@ -33,7 +33,7 @@ export default function Home() {
             <li className="px-5 py-2 rounded flex items-center gap-3 bg-blue-600 text-white transition-transform duration-200 hover:scale-105 hover:shadow-lg">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" className="w-8 h-8" /> TypeScript
             </li>
-            <li className="px-5 py-2 rounded flex items-center gap-3 bg-cyan-400 text-neutral-900 transition-transform duration-200 hover:scale-105 hover:shadow-lg">
+            <li className="px-5 py-2 rounded flex items-center gap-3 bg-cyan-900 text-shadow-amber-50 transition-transform duration-200 hover:scale-105 hover:shadow-lg">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-8 h-8" /> React
             </li>
             <li className="px-5 py-2 rounded flex items-center gap-3 bg-black text-white transition-transform duration-200 hover:scale-105 hover:shadow-lg">
@@ -45,7 +45,7 @@ export default function Home() {
             <li className="px-5 py-2 rounded flex items-center gap-3 bg-blue-700 text-white transition-transform duration-200 hover:scale-105 hover:shadow-lg">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" className="w-8 h-8" /> CSS
             </li>
-            <li className="px-5 py-2 rounded flex items-center gap-3 bg-blue-900 text-neutral-900 transition-transform duration-200 hover:scale-105 hover:shadow-lg">
+            <li className="px-5 py-2 rounded flex items-center gap-3 bg-blue-900 text-shadow-amber-50 transition-transform duration-200 hover:scale-105 hover:shadow-lg">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" className="w-8 h-8" /> Tailwind CSS
             </li>
             <li className="px-5 py-2 rounded flex items-center gap-3 bg-blue-900 text-white transition-transform duration-200 hover:scale-105 hover:shadow-lg">
